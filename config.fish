@@ -5,4 +5,11 @@ if status is-interactive
 end
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
-abbr v nvim
+# nvm alias default latest
+
+
+set -x HOMEBREW_NO_ENV_HINTS 1
+
+# exec zellij
+set -Ux EDITOR nvim
+set -Ux VISUAL nvim
