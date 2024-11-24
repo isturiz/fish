@@ -14,7 +14,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Carga nvm.fish
 if type -q nvm
-    nvm use latest
+    nvm use latest > /dev/null 2>&1
 end
 
 # Establece variables de entorno
