@@ -2,11 +2,11 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     # set PATH /usr/local/bin $PATH
     set -gx PATH /opt/homebrew/bin $PATH
-    if command -q zellij
-        eval (zellij setup --generate-auto-start fish | string collect)
-    else
-        echo "zellij no está disponible en el PATH."
-    end
+    # if command -q zellij
+    #     eval (zellij setup --generate-auto-start fish | string collect)
+    # else
+    #     echo "zellij no está disponible en el PATH."
+    # end
 end
 
 # Carga Homebrew environment
