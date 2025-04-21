@@ -21,3 +21,4 @@ end
 set -x HOMEBREW_NO_ENV_HINTS 1
 set -Ux EDITOR nvim
 set -Ux VISUAL nvim
+set -gx PATH $HOME/.local/bin $PATH
