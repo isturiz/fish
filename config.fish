@@ -31,3 +31,6 @@ set -x XDG_CONFIG_HOME $HOME/.config
 
 # Ensure ~/.local/bin is in the PATH
 set -gx PATH $HOME/.local/bin $PATH
+
+
+zoxide init fish | source
